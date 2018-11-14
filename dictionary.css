@@ -1,0 +1,46 @@
+hr{
+    border: 0.5px solid black;
+}
+ body{
+    font-family: fantasy, Georgia, serif;
+}
+ #pagetitle{
+    padding: 20px 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 40px;
+    background-color: #7B7BD1;
+    font-style: italic;
+    color: #DCDCED;
+}
+ #overall{
+    width: 50%;
+}
+ #main{
+    padding: 5px 20px;
+    background-color: #DCDCED;
+    border: 1px solid black;
+}
+ #search-bar {
+    border-radius: 7px;
+    height: 40px;
+    font-style: italic;
+    font-family: serif;
+    padding: 5px;
+}
+ #submission {
+    height: 35px;
+    width: 65px;
+}
+ #result{
+    font-family:"Times New Roman";
+    font-style: italic;
+}
+ #main, #overall, #pagetitle{
+    margin: auto;
+}
+div > .example{
+    font-style: italic;
+    font-size: 12px;
+    color: #515050;
+} 

@@ -2,17 +2,29 @@
 <html>
 <head>
     <title>Dictionary</title>
-        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="main.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <link rel="stylesheet" href="dictionary.css" type="text/css" />
 </head>   
 
  <body>
     <div id="overall">
-        <h3>Search for a word</h3>
-        <form>
-            <input type="text" name="q" placeholder="Eg. bar"/><br><br>
-            <input type="Submit" value="Search" id="submission"/>
-        </form>
+       <div id="pagetitle">Dictionary</div>
+        <div id="main">
+            <h3>Search for a word</h3>
+            <span class="example">eg. Definition, ajax, bar, html, css, javascript, php</span>
+            <form id="search-form">
+                <input type="text" name="q" placeholder="Eg. bar" id="search-bar"/>
+                <input type="Submit" value="Search" id="submission"/>
+            </form>
+            <hr>
+            <div id="result">
+                <span>Result</span>
+                <div id="update" >
+                    
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
