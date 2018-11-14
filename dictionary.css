@@ -32,6 +32,10 @@ hr{
     height: 35px;
     width: 65px;
 }
+#all{
+    height: 35px;
+    width: 120px;
+}
  #result{
     font-family:"Times New Roman";
     font-style: italic;
